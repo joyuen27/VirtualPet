@@ -1,8 +1,32 @@
 
 void setup(){
-  //some of your code here
+  size(400,400);
 }
 void draw(){
-  //more of your code here
+  stroke(0,0,0);
+  line (190,210, 225, 245);
+  line (225, 245, 235, 250);
+  line (225, 245, 220, 250);
+  line (140,210, 175, 245);
+  line (175, 245, 185, 250);
+  line (175, 245, 170, 250);
+
+  noStroke();
+  fill(50, 162, 168);
+  rotate(PI/9);
+  arc (180, 30, 100, 75, 0, PI);
+  arc (180, 55, 100, 75, 0, PI);
+  arc (180, 80, 100, 75, 0, PI);
+  arc (180, 105, 100, 75, 0, PI);
+
+  fill(50, 162, 168);
+  stroke(0,0,0);
+  rotate(PI/9);
+  ellipse (250, 0, 100, 150);
+  ellipse (250, -100, 50, 50);
+
+  fill(0, 0, 0);
+  triangle(270, -90, 270, -110, 300, -100);
+  ellipse(260, -113, 5, 5);
 }
 
